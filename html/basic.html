@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--RequireJS for require() to work with browsers-->
+    <!-- <script src="https://requirejs.org/docs/release/2.3.6/minified/require.js"></script> -->
+    <script src="../lib/jquery-3.5.1.js"></script>
+    <script src="../js/form_handle.js"></script>
+
+    <title>RW to JSON</title>
+</head>
+<body>
+    Basic functionality to Write New User (Registration) to db.json File.
+
+    <div id="newUser">
+        <form class="registration">
+            <label for="email">Email: </label>
+            <input type="email" name="mail" id="email"/>
+
+            <label for="pwd">Password: </label>
+            <input type="password" name="pass" id="pwd">
+            <br>
+            <br>
+            <button type="submit">Submit Data to JSON</button>
+        </form>
+    </div>
+
+    <div class="data">
+
+    </div>
+    
+    
+</body>
+</html>
